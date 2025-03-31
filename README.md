@@ -6,7 +6,7 @@ This dataset and model were largely authored by [Lance Ying](https://www.lanceyi
 
 See [the paper](https://arxiv.org/abs/2408.12022) for more details:
 
-> Lance Ying*, Tan Zhi-Xuan*, Lionel Wong, Vikash Mansinghka, and Joshua B. Tenenbaum. 2025. **“Understanding Epistemic Language with a Language-augmentedBayesian Theory-of-Mind,”** in Transactions of the Association for Computational Linguistics (TACL).
+> Lance Ying*, Tan Zhi-Xuan*, Lionel Wong, Vikash Mansinghka, and Joshua B. Tenenbaum. 2025. **“Understanding Epistemic Language with a Language-augmented Bayesian Theory-of-Mind,”** in Transactions of the Association for Computational Linguistics (TACL).
 
 ## Overview
 
