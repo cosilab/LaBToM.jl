@@ -2,10 +2,11 @@
 
 A Bayesian cognitive model of epistemic language understanding, which translates natural language into an epistemic language-of-thought (ELoT), then evaluates these translations against inferences about an agent's mental states produced by inverse planning with a Bayesian theory of mind (BToM).
 
+This dataset and model were largely authored by [Lance Ying](https://www.lanceying.com/) and [Tan Zhi-Xuan](https://ztangent.github.io/).
+
 See [the paper](https://arxiv.org/abs/2408.12022) for more details:
 
 > Lance Ying*, Tan Zhi-Xuan*, Lionel Wong, Vikash Mansinghka, and Joshua B. Tenenbaum. 2025. **“Understanding Epistemic Language with a Language-augmentedBayesian Theory-of-Mind,”** in Transactions of the Association for Computational Linguistics (TACL).
-
 
 ## Overview
 
