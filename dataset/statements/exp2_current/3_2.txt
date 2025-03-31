@@ -1,0 +1,5 @@
+The player believes that box 2 may contain the red key.
+The player believes the red key is in box 2.
+The player does not know which box contains a red key.
+The player believes that box 3 may contain a red key.
+The player believes that box 1 might have a red key.

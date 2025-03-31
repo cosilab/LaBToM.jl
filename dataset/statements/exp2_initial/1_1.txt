@@ -1,0 +1,5 @@
+The player initially believed that box 3 contained a blue key.
+The player initially believed that box 1 and 2 contained no blue key.
+The player initially believed that box 1 might have the blue key.
+The player initially believed the blue key was not in box 2.
+The player initially thought that there may have been a key in box 2.

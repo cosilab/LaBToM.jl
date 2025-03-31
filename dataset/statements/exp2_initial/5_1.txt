@@ -1,0 +1,5 @@
+The player initially knew that there was a key in box 1.
+The player initially knew that box 1 did not have a red key.
+The player initially believed that box 2 was empty.
+The player initially thought that box 2 might have the red key.
+The player initially believed a red key was more likely to be in box 2 or 3 than box 1.

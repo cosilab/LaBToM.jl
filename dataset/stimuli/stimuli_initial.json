@@ -1,0 +1,604 @@
+[
+  {
+    "name": "1_1",
+    "goal": 2,
+    "images": [
+      "stimuli/segments/p1_1_1.gif",
+      "stimuli/segments/p1_1_2.gif",
+      "stimuli/segments/p1_1_3.gif",
+      "stimuli/segments/p1_1_4.gif"
+    ],
+    "times": [
+      1,
+      9,
+      15,
+      27
+    ],
+    "statements": [
+      "The player initially believed that box 3 contained a blue key.",
+      "The player initially believed that box 1 and 2 contained no blue key.",
+      "The player initially believed that box 1 might have the blue key.",
+      "The player initially believed the blue key was not in box 2.",
+      "The player initially thought that there may have been a key in box 2."
+    ],
+    "relevant_colors": [
+      "blue"
+    ],
+    "relevant_boxes": [
+      1
+    ],
+    "length": 3
+  },
+  {
+    "name": "1_2",
+    "goal": 2,
+    "images": [
+      "stimuli/segments/p1_2_1.gif",
+      "stimuli/segments/p1_2_2.gif",
+      "stimuli/segments/p1_2_3.gif",
+      "stimuli/segments/p1_2_4.gif"
+    ],
+    "times": [
+      1,
+      6,
+      14,
+      30
+    ],
+    "statements": [
+      "The player initially believed that box 3 contained a blue key.",
+      "The player initially believed that box 1 might have the blue key.",
+      "The player initially had no idea which box contained a blue key.",
+      "The player initially believed that 1 of the boxes had a blue key.",
+      "The player initially believed that box 1 and 2 contained no blue key."
+    ],
+    "relevant_colors": [
+      "blue"
+    ],
+    "relevant_boxes": [
+      3
+    ],
+    "length": 3
+  },
+  {
+    "name": "1_3",
+    "goal": 2,
+    "images": [
+      "stimuli/segments/p1_3_1.gif",
+      "stimuli/segments/p1_3_2.gif",
+      "stimuli/segments/p1_3_3.gif",
+      "stimuli/segments/p1_3_4.gif"
+    ],
+    "times": [
+      1,
+      7,
+      11,
+      23
+    ],
+    "statements": [
+      "The player initially believed that box 2 contained a blue key.",
+      "The player initially believed that the first box is empty and held no key.",
+      "The player initially believed there was an equal chance of the key being in box 1, box 2, or box 3.",
+      "The player initially thought that there may have been a key in box 2.",
+      "The player initially believed that box 3 was empty."
+    ],
+    "relevant_colors": [
+      "blue"
+    ],
+    "relevant_boxes": [
+      1
+    ],
+    "length": 3
+  },
+  {
+    "name": "2_1",
+    "goal": 3,
+    "images": [
+      "stimuli/segments/p2_1_1.gif",
+      "stimuli/segments/p2_1_2.gif",
+      "stimuli/segments/p2_1_3.gif",
+      "stimuli/segments/p2_1_4.gif"
+    ],
+    "times": [
+      1,
+      4,
+      17,
+      32
+    ],
+    "statements": [
+      "The player initially did not believe box 3 had a red key.",
+      "The player initially knew that box 3 did not have the red key.",
+      "The player initially thought that box 2 contained a red key.",
+      "The player initially believed the red key was in box 1.",
+      "The player initially did not know if box 2 had a key."
+    ],
+    "relevant_colors": [
+      "red"
+    ],
+    "relevant_boxes": [
+      2
+    ],
+    "length": 3
+  },
+  {
+    "name": "2_2",
+    "goal": 1,
+    "images": [
+      "stimuli/segments/p2_2_1.gif",
+      "stimuli/segments/p2_2_2.gif",
+      "stimuli/segments/p2_2_3.gif",
+      "stimuli/segments/p2_2_4.gif"
+    ],
+    "times": [
+      1,
+      6,
+      11,
+      25
+    ],
+    "statements": [
+      "The player initially believed that box 2 was more likely to contain a red key than box 1 and box 3.",
+      "The player initially thought that box 1 most likely contained a red key.",
+      "The player initially thought box 3 had the red key.",
+      "The player initially believed that box 1 was empty.",
+      "The player initially believed that box 3 was empty."
+    ],
+    "relevant_colors": [
+      "red"
+    ],
+    "relevant_boxes": [
+      3
+    ],
+    "length": 3
+  },
+  {
+    "name": "2_3",
+    "goal": 3,
+    "images": [
+      "stimuli/segments/p2_3_1.gif",
+      "stimuli/segments/p2_3_2.gif",
+      "stimuli/segments/p2_3_3.gif",
+      "stimuli/segments/p2_3_4.gif"
+    ],
+    "times": [
+      1,
+      4,
+      10,
+      25
+    ],
+    "statements": [
+      "The player initially thought that box 1 most likely contained a red key.",
+      "The player initially expected to find a key in box 3.",
+      "The player initially thought that box 2 contained a red key.",
+      "The player initially knew there would be a red key in 1 of the boxes.",
+      "The player initially thought that box 2 did not contain a red key."
+    ],
+    "relevant_colors": [
+      "red"
+    ],
+    "relevant_boxes": [
+      1
+    ],
+    "length": 3
+  },
+  {
+    "name": "3_1",
+    "goal": 3,
+    "images": [
+      "stimuli/segments/p3_1_1.gif",
+      "stimuli/segments/p3_1_2.gif",
+      "stimuli/segments/p3_1_3.gif",
+      "stimuli/segments/p3_1_4.gif",
+      "stimuli/segments/p3_1_5.gif"
+    ],
+    "times": [
+      1,
+      5,
+      12,
+      20,
+      46
+    ],
+    "statements": [
+      "The player initially believed there was no key in box 1.",
+      "The player initially knew there was a blue key in box 1, box 2, or box 3.",
+      "The player initially believed box 1 was empty.",
+      "The player initially knew there was a key in box 2 or box 3.",
+      "The player initially believed there might be a chance of seeing a key in box 2."
+    ],
+    "relevant_colors": [
+      "blue"
+    ],
+    "relevant_boxes": [
+      3
+    ],
+    "length": 4
+  },
+  {
+    "name": "3_2",
+    "goal": 4,
+    "images": [
+      "stimuli/segments/p3_2_1.gif",
+      "stimuli/segments/p3_2_2.gif",
+      "stimuli/segments/p3_2_3.gif",
+      "stimuli/segments/p3_2_4.gif"
+    ],
+    "times": [
+      1,
+      14,
+      22,
+      47
+    ],
+    "statements": [
+      "The player initially did not know which box might contain a red key.",
+      "The player initially believed there might be a key in box 1.",
+      "The player initially believed that box 1 was empty.",
+      "The player initially did not know the color of the key in box 3.",
+      "The player initially believed a red key was most likely in box 2."
+    ],
+    "relevant_colors": [
+      "red"
+    ],
+    "relevant_boxes": [
+      2
+    ],
+    "length": 3
+  },
+  {
+    "name": "3_3",
+    "goal": 3,
+    "images": [
+      "stimuli/segments/p3_3_1.gif",
+      "stimuli/segments/p3_3_2.gif",
+      "stimuli/segments/p3_3_3.gif",
+      "stimuli/segments/p3_3_4.gif"
+    ],
+    "times": [
+      1,
+      9,
+      15,
+      43
+    ],
+    "statements": [
+      "The player initially knew that box 1 did not have a red key.",
+      "The player initially believed a blue key was more likely to be inside box 2 than box 1 or box 3.",
+      "The player initially believed box 1 was not empty.",
+      "The player initially believed a red key was most likely in box 2.",
+      "The player initially knew that box 1 did not have the blue key."
+    ],
+    "relevant_colors": [
+      "blue"
+    ],
+    "relevant_boxes": [
+      3
+    ],
+    "length": 3
+  },
+  {
+    "name": "4_1",
+    "goal": 3,
+    "images": [
+      "stimuli/segments/p4_1_1.gif",
+      "stimuli/segments/p4_1_2.gif",
+      "stimuli/segments/p4_1_3.gif",
+      "stimuli/segments/p4_1_4.gif"
+    ],
+    "times": [
+      1,
+      11,
+      20,
+      35
+    ],
+    "statements": [
+      "The player initially did not have confidence box 1 would hold the red key.",
+      "The player initially believed that both box 2 and 3 must each contain a red key.",
+      "The player initially believed box 2 and 3 might be empty.",
+      "The player initially believed they could get a red key in box 2 or 3.",
+      "The player initially believed that box 1 did not contain a red key."
+    ],
+    "relevant_colors": [
+      "red"
+    ],
+    "relevant_boxes": [
+      2
+    ],
+    "length": 3
+  },
+  {
+    "name": "4_2",
+    "goal": 3,
+    "images": [
+      "stimuli/segments/p4_2_1.gif",
+      "stimuli/segments/p4_2_2.gif",
+      "stimuli/segments/p4_2_3.gif",
+      "stimuli/segments/p4_2_4.gif"
+    ],
+    "times": [
+      1,
+      7,
+      13,
+      35
+    ],
+    "statements": [
+      "The player initially believed that there was a key in box 2.",
+      "The player initially believed a red key was more likely to be in box 2 or 3 than box 1.",
+      "The player initially believed a red key was most likely in box 2.",
+      "The player initially believed that box 1 had a red key.",
+      "The player initially believed that either box 1 or 2 contained a key."
+    ],
+    "relevant_colors": [
+      "red",
+      "red"
+    ],
+    "relevant_boxes": [
+      1,
+      3
+    ],
+    "length": 3
+  },
+  {
+    "name": "4_3",
+    "goal": 3,
+    "images": [
+      "stimuli/segments/p4_3_1.gif",
+      "stimuli/segments/p4_3_2.gif",
+      "stimuli/segments/p4_3_3.gif",
+      "stimuli/segments/p4_3_4.gif"
+    ],
+    "times": [
+      1,
+      20,
+      23,
+      40
+    ],
+    "statements": [
+      "The player initially believed that either box 1 and 2 contained the red key.",
+      "The player initially did not know if box 3 contained a red key.",
+      "The player initially believed there might be a key in box 1.",
+      "The player initially did not know for sure which box contained a key.",
+      "The player initially thought that box 2 might have the red key."
+    ],
+    "relevant_colors": [
+      "red"
+    ],
+    "relevant_boxes": [
+      2
+    ],
+    "length": 3
+  },
+  {
+    "name": "5_1",
+    "goal": 2,
+    "images": [
+      "stimuli/segments/p5_1_1.gif",
+      "stimuli/segments/p5_1_2.gif",
+      "stimuli/segments/p5_1_3.gif",
+      "stimuli/segments/p5_1_4.gif"
+    ],
+    "times": [
+      1,
+      6,
+      13,
+      34
+    ],
+    "statements": [
+      "The player initially knew that there was a key in box 1.",
+      "The player initially knew that box 1 did not have a red key.",
+      "The player initially believed that box 2 was empty.",
+      "The player initially thought that box 2 might have the red key.",
+      "The player initially believed a red key was more likely to be in box 2 or 3 than box 1."
+    ],
+    "relevant_colors": [
+      "red"
+    ],
+    "relevant_boxes": [
+      3
+    ],
+    "length": 3
+  },
+  {
+    "name": "5_2",
+    "goal": 2,
+    "images": [
+      "stimuli/segments/p5_2_1.gif",
+      "stimuli/segments/p5_2_2.gif",
+      "stimuli/segments/p5_2_3.gif",
+      "stimuli/segments/p5_2_4.gif"
+    ],
+    "times": [
+      1,
+      6,
+      28,
+      49
+    ],
+    "statements": [
+      "The player initially believed there might be a key in box 1.",
+      "The player initially believed a red key was more likely to be in box 2 or 3 than box 1.",
+      "The player initially did not know for sure which box contained the key.",
+      "The player initially believed that either box 1 or 2 contained the red key.",
+      "The player initially believed that box 2 had a red key."
+    ],
+    "relevant_colors": [
+      "red"
+    ],
+    "relevant_boxes": [
+      3
+    ],
+    "length": 3
+  },
+  {
+    "name": "6_1",
+    "goal": 3,
+    "images": [
+      "stimuli/segments/p6_1_1.gif",
+      "stimuli/segments/p6_1_2.gif",
+      "stimuli/segments/p6_1_3.gif"
+    ],
+    "times": [
+      1,
+      9,
+      29
+    ],
+    "statements": [
+      "The player initially knew that there was a key in box 1.",
+      "The player initially believed that box 1 might contain a blue key or a red key.",
+      "The player initially believed that a red key would be located in either box 1 or box 2.",
+      "The player initially thought that box 1 was empty.",
+      "The player initially believed that box 2 was empty."
+    ],
+    "relevant_colors": [
+      "red",
+      "blue"
+    ],
+    "relevant_boxes": [
+      1,
+      2
+    ],
+    "length": 2
+  },
+  {
+    "name": "6_2",
+    "goal": 3,
+    "images": [
+      "stimuli/segments/p6_2_1.gif",
+      "stimuli/segments/p6_2_2.gif",
+      "stimuli/segments/p6_2_3.gif",
+      "stimuli/segments/p6_2_4.gif"
+    ],
+    "times": [
+      1,
+      16,
+      19,
+      33
+    ],
+    "statements": [
+      "The player initially believed that either box 1 or 2 contained the blue key.",
+      "The player initially believed that box 1 and 2 contained no blue key.",
+      "The player initially believed that box 2 had a red key.",
+      "The player initially believed that box 1 had a red key.",
+      "The player initially believed there was a blue key in either box 1 or box 2."
+    ],
+    "relevant_colors": [
+      "blue"
+    ],
+    "relevant_boxes": [
+      2
+    ],
+    "length": 3
+  },
+  {
+    "name": "6_3",
+    "goal": 3,
+    "images": [
+      "stimuli/segments/p6_3_1.gif",
+      "stimuli/segments/p6_3_2.gif",
+      "stimuli/segments/p6_3_3.gif",
+      "stimuli/segments/p6_3_4.gif"
+    ],
+    "times": [
+      1,
+      5,
+      14,
+      37
+    ],
+    "statements": [
+      "The player initially believed that box 2 was empty.",
+      "The player was initially unsure about the contents of boxes 1 and 2.",
+      "The player initially believed box 1 had a red key.",
+      "The player initially believed that box 2 had a red key.",
+      "The player initially believed there might be a key in box 1."
+    ],
+    "relevant_colors": [
+    ],
+    "relevant_boxes": [
+    ],
+    "length": 3
+  },
+  {
+    "name": "7_1",
+    "goal": 2,
+    "images": [
+      "stimuli/segments/p7_1_1.gif",
+      "stimuli/segments/p7_1_2.gif",
+      "stimuli/segments/p7_1_3.gif",
+      "stimuli/segments/p7_1_4.gif"
+    ],
+    "times": [
+      1,
+      7,
+      10,
+      43
+    ],
+    "statements": [
+      "The player initially believed box 1 had a red key.",
+      "The player initially believed that box 2 might have a red key.",
+      "The player initially thought that boxes 2 or 3 contained a key.",
+      "The player initially thought that box 1 was empty.",
+      "The player initially believed box 2 and 3 might be empty."
+    ],
+    "relevant_colors": [
+      "red"
+    ],
+    "relevant_boxes": [
+      1
+    ],
+    "length": 3
+  },
+  {
+    "name": "7_2",
+    "goal": 2,
+    "images": [
+      "stimuli/segments/p7_2_1.gif",
+      "stimuli/segments/p7_2_2.gif",
+      "stimuli/segments/p7_2_3.gif",
+      "stimuli/segments/p7_2_4.gif"
+    ],
+    "times": [
+      1,
+      12,
+      32,
+      55
+    ],
+    "statements": [
+      "The player initially believed box 2 and 3 might be empty.",
+      "The player initially thought that box 1 was most likely to contain a red key.",
+      "The player initially did not have confidence box 1 would hold the red key.",
+      "The player initially believed there was a red key in box 2.",
+      "The player initially believed the red key could be in box 2."
+    ],
+    "relevant_colors": [
+      "red"
+    ],
+    "relevant_boxes": [
+      3
+    ],
+    "length": 3
+  },
+  {
+    "name": "7_3",
+    "goal": 2,
+    "images": [
+      "stimuli/segments/p7_3_1.gif",
+      "stimuli/segments/p7_3_2.gif",
+      "stimuli/segments/p7_3_3.gif",
+      "stimuli/segments/p7_3_4.gif"
+    ],
+    "times": [
+      1,
+      13,
+      26,
+      52
+    ],
+    "statements": [
+      "The player initially believed that box 2 was empty.",
+      "The player initially believed box 2 and 3 might be empty.",
+      "The player initially believed that box 2 had a red key.",
+      "The player was initially unsure what box contained the red key.",
+      "The player initially believed box 1 had a red key."
+    ],
+    "relevant_colors": [
+      "red"
+    ],
+    "relevant_boxes": [
+      3
+    ],
+    "length": 3
+  }
+]

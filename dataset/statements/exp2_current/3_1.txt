@@ -1,0 +1,5 @@
+The player believes box 2 is least likely to hold the blue key.
+The player believes that box 3 holds the blue key.
+The player knows box 3 contains a blue key.
+The player thinks that box 1 is empty.
+The player knows that box 2 is empty.

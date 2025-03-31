@@ -1,0 +1,5 @@
+The player initially believed that box 2 contained a blue key.
+The player initially believed that the first box is empty and held no key.
+The player initially believed there was an equal chance of the key being in box 1, box 2, or box 3.
+The player initially thought that there may have been a key in box 2.
+The player initially believed that box 3 was empty.

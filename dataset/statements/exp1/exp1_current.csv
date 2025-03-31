@@ -1,0 +1,242 @@
+plan_id,raw,possibility,probability,compositional,knowledge,statement
+1_1,The player currently believes that box 1 contains the blue key.,none,none,0,0,The player believes that box 1 contains the blue key.
+1_1,"The player currently believes that box 1 or 2 contain the blue key, but leans more towards box 1.",none,comparative,1,0,"The player believes that box 1 or 2 contain the blue key, but leans more towards box 1."
+1_1,the player believe the blue key is in 1,none,none,0,0,The player believes the blue key is in box 1.
+1_2,The player is sure there must be a blue key in box 3.,must,certain,0,0,The player is sure there must be a blue key in box 3.
+1_2,The player believes box 3 contains a blue key,none,none,0,0,The player believes box 3 contains a blue key.
+1_2,The player currently believes that the blue key is in box number 3.,none,none,0,0,The player believes that the blue key is in box number 3.
+1_2,The player currently believes that box 3 is their only chance at a blue key.,none,none,1,0,The player believes that box 3 is their only chance at a blue key.
+1_2,The player believes there should be a key in box 3.,should,none,0,0,The player believes that there should be a key in box 3.
+1_2,box 3 has the key inside,none,none,0,0,The player believes box 3 has the key inside.
+1_2,The player believes box 3 contains a blue key,none,none,0,0,The player believes that box 3 contains a blue key.
+1_2,The player believes box 3 doesn't have a red key,none,none,0,0,The player believes that box 3 doesn't have a red key.
+1_2,The player currently believes a blue key is found in box 3.,none,none,0,0,The player believes a blue key is found in box 3.
+1_2,The player believes box 1 and 2 are empty.,none,none,1,0,The player believes that box 1 and 2 are empty.
+1_2,The player believes that box 3 must have a blue key.,must,none,0,0,The player believes that box 3 must have a blue key.
+1_2,The player knows that boxes 1 and 2 did not have the blue key.,none,none,1,1,The player knows that boxes 1 and 2 did not have the blue key.
+1_3,The player believes the blue key is in box 1.,none,none,0,0,The player believes the blue key is in box 1.
+1_3,The player believes the blue key could be in box 3.,could,none,0,0,The player believes the blue key could be in box 3.
+1_3,The player currently believes that box 1 contains the blue key.,none,none,0,0,The player believes that box 1 contains the blue key.
+1_3,The player currently believes that box 3 does not contain the blue key.,none,none,0,0,The player currently believes that box 3 does not contain the blue key.
+1_3,The player believes there may be a key in box 1.,may,none,0,0,The player believes there may be a key in box 1.
+1_3,The player believes may be a key in box 3.,may,none,0,0,The player believes there may be a key in box 3.
+1_3,The player believes that the key is in box number one.,none,none,0,0,The player believes that the key is in box number one.
+1_3,The player is of the belief that the third box is empty.,none,none,0,0,The player believes that the third box is empty.
+1_3,the play thinks the blue key is in box 1,none,none,0,0,The player believes the blue key is in box 1.
+1_3,The player believes that box 1 contains the key.,none,none,0,0,The player believes that box 1 contains the key.
+1_3,The player believes that box 3 is empty.,none,none,0,0,The player believes that box 3 is empty.
+1_3,The player believes that Box 1 might have a blue key.,might,none,0,0,The player believes that box 1 might have a blue key.
+1_3,"The player believes that if Box 1 does not have a blue key, that Box 3 has a blue key.",none,none,1,0,"The player believes that if box 1 does not have a blue key, then box 3 has a blue key."
+1_3,The player believes there might be a key in box 1.,might,none,0,0,The player believes there might be a key in box 1.
+1_3,The player believes there might be a key in box 2.,might,none,0,0,The player believes there might be a key in box 2.
+1_3,The player is uncertain about the contents of box 3.,none,uncertain,0,0,The player is uncertain about the contents of box 3.
+2_1,The player thinks box 2 might have a red key.,might,none,0,0,The player thinks box 2 might have a red key.
+2_1,The player thinks box 3 does not have a red key.,none,none,0,0,The player believes box 3 does not have a red key.
+2_1,The player thought box one would have the red key.,none,none,0,0,The player believes box one would have the red key.
+2_1,The player now believes box two has the red key.,none,none,0,0,The player believes that box two has the red key.
+2_1,The player believes the red key may be in box 2,may,none,0,0,The player believes the red key may be in box 2.
+2_1,The player believes if the red key is not in box 2 then it must be in box 3.,must,none,1,0,The player believes if the red key is not in box 2 then it must be in box 3.
+2_1,The player also believes box 2 might hold a red key.Gthe,might,none,0,0,The player believes box 2 might hold a red key.
+2_1,The player believes there should be a key in box 2.,should,none,0,0,The player believes there should be a key in box 2.
+2_1,The player is unsure what color the key in box 2 will be.,none,uncertain,0,0,The player is unsure what color the key in box 2 will be.
+2_1,The player is hoping the key in box 2 will be red.,none,none,0,0,The player is hoping the key in box 2 will be red.
+2_1,The player now believes box 2 and 3 has keys.,none,none,1,0,The player believes that box 2 and 3 has keys.
+2_1,The player believes box 3 is empty,none,none,0,0,The player believes that box 3 is empty.
+2_1,The player believes box 2 has a key,none,none,0,0,The player believes that box 2 has a key.
+2_1,The player knows that box 1 did not have the red key.,none,none,0,1,The player knows that box 1 did not have the red key.
+2_1,The player believes that box 2 might have the red key.,might,none,0,0,The player believes that box 2 might have the red key.
+2_2,The player believes that box 3 might have a red key.,might,none,0,0,The player believes that box 3 might have a red key.
+2_2,The player believes that box 1 might be empty.,might,none,0,0,The player believes that box 1 might be empty.
+2_2,the player thinks there is a key in box 3.,none,none,0,0,The player thinks there is a key in box 3.
+2_2,The player believes that box 1 contains a key.,none,none,0,0,The player believes that box 1 contains a key.
+2_2,The player believes that box 3 is empty.,none,none,0,0,The player believes that box 3 is empty.
+2_2,The player thinks that box 3 contains a red key.,none,none,0,0,The player thinks that box 3 contains a red key.
+2_2,The player thinks that box 1 is empty.,none,none,0,0,The player thinks that box 1 is empty.
+2_2,The player currently believes box 3 contains a red key.,none,none,0,0,The player believes that box 3 contains a red key.
+2_2,The player currently believes box 3 is more likely to contain a red key than box 1.,none,comparative,1,0,The player believes that box 3 is more likely to contain a red key than box 1.
+2_3,The player likely believes box 3 is empty.,none,none,0,0,The player believes box 3 is empty.
+2_3,The player likely believes box 1 or box 2 contains a red key.,none,none,1,0,The player believes box 1 or box 2 contains a red key.
+2_3,The player expects to find a red key in box 1 or 3.,none,none,1,0,The player expects to find a red key in box 1 or 3.
+2_3,The player thinks that there's more likely to be a red key in box 1 or 3 than box 2.,none,comparative,1,0,The player thinks that there's more likely to be a red key in box 1 or 3 than box 2.
+2_3,The player thinks that box 3 does not contain a red key.,none,none,0,0,The player believes that box 3 does not contain a red key.
+2_3,The player thinks that box 2 does not contain a red key.,none,none,0,0,The player believes that box 2 does not contain a red key.
+2_3,The player thinks that box 1 most likely contains a red key.,none,comparative,0,0,The player thinks that box 1 most likely contains a red key.
+2_3,The player believes box one holds a red key.,none,none,0,0,The player believes that box one holds a red key.
+2_3,The player does not think box two holds a red key.,none,none,0,0,The player believes that box two does not hold a red key.
+2_3,The player believes that box 1 has a red key.,none,none,0,0,The player believes that box 1 has a red key.
+2_3,The player believes that box 2 is empty.,none,none,0,0,The player believes that box 2 is empty.
+2_3,The player believes that box 3 is empty.,none,none,0,0,The player believes that box 3 is empty.
+2_3,The player thinks that box 1 contains a red key.,none,none,0,0,The player thinks that box 1 contains a red key.
+2_3,The player thinks that boxes 2 and 3 might or might not contain a red key.,might,none,1,0,The player thinks that boxes 2 and 3 might or might not contain a red key.
+3_1,The player knows box 3 contains a blue key.,none,none,0,1,The player knows box 3 contains a blue key.
+3_1,The player knows box 1 contains a red key.,none,none,0,1,The player knows box 1 contains a red key.
+3_1,The player believes box 3 has a blue key,none,none,0,0,The player believes that box 3 has a blue key.
+3_1,the player believes box 1 contains the red key,none,none,0,0,The player believes that box 1 contains the red key.
+3_1,The player believes that box 1 likely holding a blue key..,none,likely,0,0,The player believes that box 1 likely holding a blue key.
+3_1,"Next, the player believes that box 3 holds the blue key.",none,none,0,0,The player believes that box 3 holds the blue key.
+3_1,The player believes box 2 is least likely to hold the blue key.,none,comparative,0,0,The player believes box 2 is least likely to hold the blue key.
+3_1,The player believes box 2 has the blue key,none,none,0,0,The player believes box 2 has the blue key.
+3_1,The player believes there is a red key in box 1.,none,none,0,0,The player believes there is a red key in box 1.
+3_1,The player believes there is a chance box 1 is empty.,none,none,0,0,The player believes there is a chance box 1 is empty.
+3_2,The player thinks one of the boxes contains a red key.,none,none,1,0,The player thinks one of the boxes contains a red key.
+3_2,The player does not know which box contains a red key.,none,none,0,1,The player does not know which box contains a red key.
+3_2,The player believes boxes two and three have a key.,none,none,1,0,The player believes that boxes two and three have a key.
+3_2,The player currently believes that box 2 may contain the red key.,may,none,0,0,The player believes that box 2 may contain the red key.
+3_2,The player currently believes that box 1 or 2 contain the red key.,none,none,1,0,The player believes that box 1 or 2 contain the red key.
+3_2,the play thinks there may be a key in box 2.,may,none,0,0,The player thinks there may be a key in box 2.
+3_2,The player now believes box 2 might possibly hold the red key.,might,none,0,0,The player believes box 2 might possibly hold the red key.
+3_2,The player hopes box 2 has a key.,none,none,0,0,The player believes box 2 has a key.
+3_2,The player believes that box 2 contains the red key.,none,none,0,0,The player believes that box 2 contains the red key.
+3_2,The player believes that box 1 is empty.,none,none,0,0,The player believes that box 1 is empty.
+3_2,The player believes that the blue key is in box 3.,none,none,0,0,The player believes that the blue key is in box 3.
+3_2,The player believes the pink key is in box 2.,none,none,0,0,The player believes the pink key is in box 2.
+3_3,The player believes box 3 will either be empty or have a blue key.,none,none,1,0,The player believes that box 3 will either be empty or have a blue key.
+3_3,The player is unsure whether the blue key is in box 3 or 1.,none,uncertain,1,0,The player is unsure whether the blue key is in box 3 or 1.
+3_3,The player believes that box 3 holds a blue key for sure,none,certain,0,0,The player believes that box 3 holds a blue key for sure.
+3_3,The player believes that box 3 is not empty,none,none,0,0,The player believes that box 3 is not empty.
+3_3,The player currently believes a blue key is found in either box 3 or box 1.,none,none,1,0,The player believes a blue key is found in either box 3 or box 1.
+3_3,The player currently believes a blue key is most likely inside box 3.,none,comparative,0,0,The player believes a blue key is most likely inside box 3.
+3_3,The player knows that box 1 does not have the blue key.,none,none,0,1,The player knows that box 1 does not have the blue key.
+3_3,The player believes that box 3 has the blue key.,none,none,0,0,The player believes that box 3 has the blue key.
+4_1,The player likely believes box 2 or box 3 contains a red key.,none,none,1,0,The player believes box 2 or box 3 contains a red key.
+4_1,The player likely believes box 1 is empty.,none,likely,0,0,The player believes box 1 is likely empty.
+4_1,The player expects to find a red key in box 2 or 3.,none,none,1,0,The player expects to find a red key in box 2 or 3.
+4_1,The player thinks that there's more likely to be a red key in box 2 or 3 than box 1.,none,comparative,1,0,The player thinks that there's more likely to be a red key in box 2 or 3 than box 1.
+4_1,The player believes that box 1 does not contain a red key.,none,none,0,0,The player believes that box 1 does not contain a red key.
+4_1,The player believes that either box 2 or 3 contains a red key.,none,none,1,0,The player believes that either box 2 or 3 contains a red key.
+4_1,The player does not believe box one holds a red key.,none,none,0,0,The player believes box one does not hold a red key.
+4_1,The player ohpes box two or three holds the red key.,none,none,1,0,The player believes box two or three holds the red key.
+4_1,The player currently believes that box 2 or 3 contain a red key.,none,none,1,0,The player believes that box 2 or 3 contain a red key.
+4_1,The player may believe that box 1 is empty.,none,none,0,0,The player believes that box 1 is empty.
+4_1,The player believes box 2 or box 3 might hold a red key.,might,none,1,0,The player believes that box 2 or box 3 might hold a red key.
+4_1,The player next believes box 1 might hold a red key.,might,none,0,0,The player believes that box 1 might hold a red key.
+4_1,I believe the play think box 1 is empty.,none,none,0,0,The player thinks box 1 is empty.
+4_1,The player believes the keys are in box 2 & 3.,none,none,0,0,The player believes the keys are in box 2 & 3.
+4_1,The player believes that box 1 doesn't have a key.,none,none,0,0,The player believes that there is no key in box 1.
+4_1,The player believes box 2 or 3 has a key.,none,none,1,0,The player believes that box 2 or 3 has a key.
+4_2,The player believes there could be a red key in box 3.,could,none,0,0,The player believes there could be a red key in box 3.
+4_2,The player believes that box 3 may contain a red key.,may,none,0,0,The player believes that box 3 may contain a red key.
+4_2,The player knows that box 2 is empty.,none,none,0,1,The player knows that box 2 is empty.
+4_2,the player thinks a red key is in box 3.,none,none,0,0,The player thinks a red key is in box 3.
+4_2,The player believes a red key is in box 3.,none,none,0,0,The player believes a red key is in box 3.
+4_2,The player believes that box 3 contains a red key.,none,none,0,0,The player believes that box 3 contains a red key.
+4_2,The player is sure that box 1 and 2 are empty.,none,certain,1,0,The player is sure that box 1 and 2 are empty.
+4_2,The player believes there is a blue key in box 3,none,none,0,0,The player believes there is a blue key in box 3.
+4_2,The player believes that box 3 is empty.,none,none,0,0,The player believes that box 3 is empty.
+4_2,The player thinks that box 3 contains a red key.,none,none,0,0,The player thinks that box 3 contains a red key.
+4_3,The player believes box 2 may contain a red key.,may,none,0,0,The player believes that box 2 may contain a red key.
+4_3,The player believes box 1 may contain a red key.,may,none,0,0,The player believes box 1 may contain a red key.
+4_3,The player believes box 1 or box 2 contains a red key.,none,none,1,0,The player believes box 1 or box 2 contains a red key.
+4_3,The player believes box 2 contains a red key,none,none,0,0,The player believes box 2 contains a red key.
+4_3,the player believes box 1 is empty,none,none,0,0,The player believes box 1 is empty.
+4_3,The player thinks that box 1 does not contain a red key.,none,none,0,0,The player believes that box 1 does not contain a red key.
+4_3,The player thinks that box 2 contains a red key.,none,none,0,0,The player thinks that box 2 contains a red key.
+4_3,The player does not believe box one holds a key.,none,none,0,0,The player believes that box one does not hold a key.
+4_3,The player is hoping box two holds a second red key.,none,none,0,0,The player believes box two holds a second red key.
+4_3,the player thinks a red key is in box 2.,none,none,0,0,The player thinks a red key is in box 2.
+4_3,The player believes one of the boxes has a key.,none,none,1,0,The player believes that one of the boxes has a key.
+4_3,The player is unsure which box has a key.,none,uncertain,0,0,The player is unsure which box has a key.
+4_3,The player believes that box 2 is full.,none,none,0,0,The player believes that box 2 is full.
+4_3,The player believes that box 1 is empty.,none,none,0,0,The player believes that box 1 is empty.
+4_3,The player currently believes there might be a key in Box 2.,might,none,0,0,The player believes there might be a key in box 2.
+4_3,The player believes there might be a key in Box 3.,might,none,0,0,The player believes there might be a key in box 3.
+4_3,The player believes there might be a key in box 1.,might,none,0,0,The player believes there might be a key in box 1.
+4_3,The player believes there might be a key in box 2.,might,none,0,0,The player believes there might be a key in box 2.
+4_3,The player is uncertain about the contents of box 3.,none,uncertain,0,0,The player is uncertain about the contents of box 3.
+5_1,The player believes there should be a key in box 3.,should,none,0,0,The player believes there should be a key in box 3.
+5_1,The player is unsure whether the key will be blue or red.,none,uncertain,1,0,The player is unsure whether the key will be blue or red.
+5_1,The player believes the red key is in box 3.,none,none,0,0,The player believes the red key is in box 3.
+5_1,The player believes that box number 1 is empty.,none,none,0,0,The player believes that box number 1 is empty.
+5_1,The player believes box 3 might have a red key,might,none,0,0,The player believes that box 3 might have a red key.
+5_1,The player believes box 3 might also have a blue key,might,none,0,0,The player believes that box 3 might also have a blue key.
+5_1,The player believes that there is a red key in box 3,none,none,0,0,The player believes there is a red key in box 3.
+5_1,The player believes that box 1 is empty,none,none,0,0,The player believes that box 1 is empty.
+5_1,The player believes that Box 3 could have the red key.,could,none,0,0,The player believes that box 3 could have the red key.
+5_1,The player believes that Box 1 will have a red key if Box 3 does not.,none,none,1,0,"The player believes that if box 3 does not contain a red key, then box 1 will."
+5_1,The player believes that either box 2 or 3 has a red key.,none,none,1,0,The player believes that either box 2 or 3 has a red key.
+5_1,The player knows that box 2 does not have the red key.,none,none,0,1,The player knows that box 2 does not have the red key.
+5_1,The player believes there might be a key in box 1.,might,none,0,0,The player believes there might be a key in box 1.
+5_1,The player believes there might be a key in box 2.,might,none,0,0,The player believes there might be a key in box 2.
+5_1,The player is uncertain about the contents of box 3.,none,uncertain,0,0,The player is uncertain about the contents of box 3.
+5_2,The player believes that the red key must be in box 3.,must,none,0,0,The player believes that the red key must be in box 3.
+5_2,the player thinks a red key is in box 3.,none,none,0,0,The player believes a red key is in box 3.
+5_2,The player believes a red key is in box 3.,none,none,0,0,The player believes that a red key is in box 3.
+5_2,The player believes boxes 1 and 2 are empty.,none,none,1,0,The player believes that boxes 1 and 2 are empty.
+5_2,The player knows that the third box holds the red key.,none,none,0,1,The player knows that the third box holds the red key.
+5_2,The player knows that the boxes 1 and 2 were both empty.,none,none,1,1,The player knows that the boxes 1 and 2 were both empty.
+5_2,They player believes box three has a red key.,none,none,0,0,The player believes box three has a red key.
+5_2,The player believes that box 3 contains a red key.,none,none,0,0,The player believes that box 3 contains a red key.
+5_2,The player is sure that box 1 and 2 are empty.,none,certain,1,0,The player is sure that box 1 and 2 are empty.
+5_2,The player believes that there is a red key in box 3,none,none,0,0,The player believes that there is a red key in box 3.
+5_2,The player believes that box 2 is empty,none,none,0,0,The player believes that box 2 is empty.
+5_2,The player believes there is a red key in Box 3.,none,none,0,0,The player believes there is a red key in box 3.
+5_2,The player already knows for sure there is no key in Box 1 or Box 2.,none,certain,1,1,The player already knows for sure there is no key in box 1 or box 2.
+5_2,The player believes there might be a key in box 1.,might,none,0,0,The player believes there might be a key in box 1.
+5_2,The player believes there might be a key in box 2.,might,none,0,0,The player believes there might be a key in box 2.
+5_2,The player is uncertain about the contents of box 3.,none,uncertain,0,0,The player is uncertain about the contents of box 3.
+6_1,The player believes box 1 may contain a blue key or a red key.,may,none,1,0,The player believes box 1 may contain a blue key or a red key.
+6_1,The player believes box 2 may contain a blue key or a red key.,may,none,1,0,The player believes that box 2 may contain a blue key or a red key.
+6_1,The player believes box 1 contains the red key,none,none,0,0,The player believes box 1 contains the red key.
+6_1,the player believes box 2 to be empty,none,none,0,0,The player believes that box 2 is empty.
+6_1,The player currently believes that either a red key or a blue key is in box 1.,none,none,1,0,The player believes that either a red key or a blue key is in box 1.
+6_1,The player currently believes that either a red key or a blue key is in box 2.,none,none,1,0,The player believes that either a red key or a blue key is in box 2.
+6_1,The player believes box 1 might hold a blue key.,might,none,0,0,The player believes that box 1 might hold a blue key.
+6_1,The player believes box 2 might hold a blue key.,might,none,0,0,The player believes that box 2 might hold a blue key.
+6_1,The player is unsure what color key is in box 1.,none,uncertain,0,0,The player is unsure what color key is in box 1.
+6_1,The player believes there might be a key in box 1.,might,none,0,0,The player believes there might be a key in box 1.
+6_1,The player believes box 1 holds a blue key,none,none,0,0,The player believes that box 1 holds a blue key.
+6_1,The player believes box 1 holds a red key,none,none,0,0,The player believes that box 1 holds a red key.
+6_1,The player currently believes Box 1 contains a red key.,none,none,0,0,The player believes that box 1 contains a red key.
+6_1,The player currently believes Box 1 is more likely to contain a red key than box 2.,none,comparative,1,0,The player believes box 1 is more likely to contain a red key than box 2.
+6_1,The player knows that there is a blue or red key in box 1.,none,none,1,1,The player knows that there is a blue or red key in box 1.
+6_1,The player knows that there is a blue or red key in box 2.,none,none,1,1,The player knows that there is a blue or red key in box 2.
+6_2,The player believes that box 1 holds a blue key.,none,none,0,0,The player believes that box 1 holds a blue key.
+6_2,"Next, the player believes that box 2 holds a blue key.",none,none,0,0,The player believes that box 2 holds a blue key.
+6_2,The player believes there is a blue key in box 2.,none,none,0,0,The player believes there is a blue key in box 2.
+6_2,The player believes that there is a red key in box 2,none,none,0,0,The player believes that there is a red key in box 2.
+6_2,The player believes that box 1 is empty,none,none,0,0,The player believes the blue key is in box 1.
+6_3,The player believes that the boxes are both empty.,none,none,0,0,The player believes that the boxes are both empty.
+6_3,The player believes that box 1 is empty.,none,none,0,0,The player believes that box 1 is empty.
+6_3,The player believes that box 2 probably has a key.,none,likely,0,0,The player believes that box 2 probably has a key.
+6_3,The player believes there might be a key in Box 1 or Box 2.,might,none,1,0,The player believes there might be a key in box 1 or box 2.
+6_3,The player believes there might be a key in box 1.,might,none,0,0,The player believes there might be a key in box 1.
+6_3,The player believes there might be a key in box 2.,might,none,0,0,The player believes there might be a key in box 2.
+6_3,The player is uncertain about the contents of box 3.,none,uncertain,0,0,The player is uncertain about the contents of box 3.
+7_1,The player believes that box 1 might have a red key.,might,none,0,0,The player believes that box 1 might have a red key.
+7_1,The player believes that box 1 might be empty.,might,none,0,0,The player believes that box 1 might be empty.
+7_1,The player knows that box 2 is empty.,none,none,0,1,The player knows that box 2 is empty.
+7_1,The player knows that box 3 is empty.,none,none,0,1,The player knows that box 3 is empty.
+7_1,The player thinks there is a red key in box 1.,none,none,0,0,The player thinks there is a red key in box 1.
+7_1,The player currently believes a red key is found inside box 1.,none,none,0,0,The player believes a red key is found inside box 1.
+7_1,The player currently believes box 1 is the only box that contains a key.,none,none,1,0,The player believes that box 1 is the only box that contains a key.
+7_2,The player thinks box 2 could contain a red key.,could,none,0,0,The player believes box 2 could contain a red key.
+7_2,The player thinks box 3 is empty.,none,none,0,0,The player believes box 3 is empty.
+7_2,The player thinks there might be a red key in box two.,might,none,0,0,The player believes there might be a red key in box two.
+7_2,The player believes the red key is in box 2.,none,none,0,0,The player believes the red key is in box 2.
+7_2,The player believes the red key may be in box 3.,may,none,0,0,The player believes the red key may be in box 3.
+7_2,The player believes that box 2 might have a red key.,might,none,0,0,The player believes that box 2 might have a red key.
+7_2,The play currently believes that box 3 might be empty.,might,none,0,0,The player believes that box 3 might be empty.
+7_2,The player believes that box number 2 holds the red key.,none,none,0,0,The player believes that box number 2 holds the red key.
+7_2,The player thinks that box number 3 is empty.,none,none,0,0,The player thinks that box number 3 is empty.
+7_2,The player believes there might be a key in Box 2.,might,none,0,0,The player believes there might be a key in box 2.
+7_2,"The player believes that if there is not a key in Box 2, there will be a key in Box 3.",none,none,1,0,"The player believes that if there is not a key in box 2, there will be a key in box 3."
+7_2,The player thinks that box 2 contains a red key.,none,none,0,0,The player thinks that box 2 contains a red key.
+7_2,The player thinks that box 3 is empty.,none,none,0,0,The player thinks that box 3 is empty.
+7_2,The player currently believes box 2 contains a red key.,none,none,0,0,The player believes that box 2 contains a red key.
+7_2,The player currently believes box 2 is more likely to contain a red key than box 3.,none,comparative,1,0,The player believes that box 2 is more likely to contain a red key than box 3.
+7_2,The player currently believes there might be a key in box 1.,might,none,0,0,The player believes there might be a key in box 1.
+7_2,The player currently believes there might be a key in box 2.,might,none,0,0,The player believes there might be a key in box 2.
+7_2,The player is uncertain about the contents of box 3.,none,uncertain,0,0,The player is uncertain about the contents of box 3.
+7_3,The player knows that box 1 empty.,none,none,0,1,The player knows that box 1 empty.
+7_3,The player believes that box 3 might have a red key.,might,none,0,0,The player believes that box 3 might have a red key.
+7_3,The player believes that box 2 might be empty.,might,none,0,0,The player believes that box 2 might be empty.
+7_3,The player currently believes that box 3 may contain the red key.,may,none,0,0,The player believes that box 3 may contain the red key.
+7_3,The player currently believes that box 2 or 3 may contain the red key.,may,none,1,0,The player believes that box 2 or 3 may contain the red key.
+7_3,The player believes there might be a red key in box 3.,might,none,0,0,The player believes there might be a red key in box 3.
+7_3,The player believes there should be a key in box 3.,should,none,0,0,The player believes that there should be a key in box 3.
+7_3,The player believes box 3 might have a red key,might,none,0,0,The player believes that box 3 might have a red key.
+7_3,The player believes box 2 would have a red key if box 3 is empty,none,none,1,0,The player believes that box 2 would have a red key if box 3 is empty.
+7_3,The player thinks that box 3 contains a red key.,none,none,0,0,The player thinks that box 3 contains a red key.
+7_3,The player thinks that box 2 is empty.,none,none,0,0,The player thinks that box 2 is empty.
+7_3,The player knows that box 1 does not have the red key.,none,none,0,1,The player knows that box 1 does not have the red key.
+7_3,The player believes that box 3 might have the red key.,might,none,0,0,The player believes that box 3 might have the red key.

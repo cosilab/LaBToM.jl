@@ -1,0 +1,5 @@
+The player believes the blue key is in box 1.
+The player is sure there must be a blue key in box 3.
+The player believes that box 1 or 2 contain the blue key, but leans more towards box 1.
+The player thinks that box 1 is empty.
+The player believes that box 1 contains the blue key.

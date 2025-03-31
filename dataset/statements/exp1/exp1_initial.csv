@@ -1,0 +1,229 @@
+plan_id,raw,possibility,probability,compositional,knowledge,statement
+1_1,The player initially believed that box 1 and 2 contained no blue key.,none,none,1,0,The player initially believed that box 1 and 2 contained no blue key.
+1_1,The player initially believed that box 3 contained a blue key.,none,none,0,0,The player initially believed that box 3 contained a blue key.
+1_1,the player thought that the blue key was in box 3 but its not,none,none,0,0,The player thought that the blue key was in box 3 but its not.
+1_1,The player believed they key was not in box 2.,none,none,0,0,The player believed they key was not in box 2.
+1_1,The player believed the key was in box 3.,none,none,0,0,The player believed the key was in box 3.
+1_2,The player arguably believed box 1 would contain a blue key.,none,none,0,0,The player believed box 1 would contain a blue key.
+1_2,The player likely believed box 2 would contain a blue key.,none,none,0,0,The player believed box 2 would contain a blue key.
+1_2,The player initially expected to find the blue key in box 1,none,none,0,0,The player initially expected to find the blue key in box 1.
+1_2,The player initially had no idea which box contained a blue key.,none,none,0,1,The player initially had no idea which box contained a blue key.
+1_2,The player believed there might be a key in any of the boxes.,might,none,1,0,The player believed there might be a key in any of the boxes.
+1_2,The player believed that any key they would find in a box would likely be blue.,none,likely,1,0,The player believed that any key they would find in a box would likely be blue.
+1_2,The player believed box 1 had a blue key,none,none,0,0,The player believed box 1 had a blue key.
+1_2,The player believed that box 2 had a blue key,none,none,0,0,The player believed that box 2 had a blue key.
+1_2,The player initially believed box 1 was more likely to contain a blue key than box 2 and 3.,none,comparative,1,0,The player initially believed box 1 was more likely to contain a blue key than box 2 and 3.
+1_2,The player initially believed box 3 was least likely to contain a blue key.,none,comparative,0,0,The player initially believed box 3 was least likely to contain a blue key.
+1_2,The player believed the key could be in any of the boxes.,could,none,1,0,The player believed the key could be in any of the boxes.
+1_2,The player believed there was an equal chance of any box having the key inside.,none,none,1,0,The player believed there was an equal chance of any box having the key inside.
+1_2,The player believed that one of the boxes had a blue key.,none,none,1,0,The player believed that one of the boxes had a blue key.
+1_2,The player believed that box 1 might have the blue key.,might,none,0,0,The player believed that box 1 might have the blue key.
+1_3,The player initially thought the blue key was in box 2.,none,none,0,0,The player initially thought the blue key was in box 2.
+1_3,The player initially believed the blue key was in box 1.,none,none,0,0,The player initially believed the blue key was in box 1.
+1_3,The player initially believed that box 2 contained a blue key.,none,none,0,0,The player initially believed that box 2 contained a blue key.
+1_3,The player initially had no idea which box contained the blue key.,none,none,0,1,The player initially had no idea which box contained the blue key.
+1_3,The player initially believed that box 2 or 1 contained the blue key.,none,none,1,0,The player initially believed that box 2 or 1 contained the blue key.
+1_3,The player thought that there may have been a key in box 2.,may,none,0,0,The player thought that there may have been a key in box 2.
+1_3,The player believed that the first box is empty and held no key.,none,none,1,0,The player believed that the first box is empty and held no key.
+1_3,the player thought that the blue key was in box 2,none,none,0,0,The player thought that the blue key was in box 2.
+1_3,The player believed that box 2 contains the key.,none,none,0,0,The player believed that box 2 contains the key.
+1_3,The player believes that box 3 is empty.,none,none,0,0,The player believes that box 3 is empty.
+1_3,The player believed that there was a key in one of the boxes.,none,none,1,0,The player believed that there was a key in one of the boxes.
+1_3,"The player believed there was an equal chance of the key being in Box 1, Box 2, or Box 3.",none,comparative,1,0,"The player believed there was an equal chance of the key being in box 1, box 2, or box 3."
+1_3,The player believed they key was in box 2.,none,none,0,0,The player believed they key was in box 2.
+1_3,The player believed they key was not in box 3.,none,none,0,0,The player believed they key was not in box 3.
+1_3,"At the start of the scenario, the player believed there might be a key in box 1.",might,none,0,0,The player believed there might be a key in box 1.
+1_3,The player was unsure about the contents of boxes 2 and 3.,none,uncertain,1,0,The player was unsure about the contents of boxes 2 and 3.
+1_3,The player thought that one of the boxes might be empty.,might,none,1,0,The player thought that one of the boxes might be empty.
+1_3,They thought that box 1 or 2 have a high chance of containing a key.,none,likely,1,0,The player thought that box 1 or 2 have a high chance of containing a key.
+2_1,The player thought that box 3 did not contain a red key.,none,none,0,0,The player thought that box 3 did not contain a red key.
+2_1,The player did not know if box 1 had a key.,none,none,0,1,The player did not know if box 1 had a key.
+2_1,The player did not know if box 2 had a key.,none,none,0,1,The player did not know if box 2 had a key.
+2_1,The player did not believe box three had a red key.,none,none,0,0,The player did not believe box three had a red key.
+2_1,The player believed the red key was in box 1.,none,none,0,0,The player believed the red key was in box 1.
+2_1,The player did not believe the key was in box 3.,none,none,0,0,The player did not believe the key was in box 3.
+2_1,The player believed there might be a key in box 1.,might,none,0,0,The player believed there might be a key in box 1.
+2_1,The player was unsure what color the key in box 1 would be if there was one.,none,uncertain,1,0,The player was unsure what color the key in box 1 would be if there was one.
+2_1,The player was hoping the key in box 1 would be red.,none,none,0,0,The player was hoping the key in box 1 would be red.
+2_1,The player did not think box 3 has a key,none,none,0,0,The player did not think box 3 has a key.
+2_1,The player believed box 1 might have a key,might,none,0,0,The player believed box 1 might have a key.
+2_1,The player believed box 3 to be empty,none,none,0,0,The player believed box 3 to be empty.
+2_1,The player believed that box 1 might have the red key.,might,none,0,0,The player believed that box 1 might have the red key.
+2_1,The player knew that box 3 did not have the red key.,none,none,0,1,The player knew that box 3 did not have the red key.
+2_2,The player believed that box 2 had a red key.,none,none,0,0,The player believed that box 2 had a red key.
+2_2,The player believed that box 1 was empty.,none,none,0,0,The player believed that box 1 was empty.
+2_2,The player believed that box 3 was empty.,none,none,0,0,The player believed that box 3 was empty.
+2_2,the player thought there was a key in box 3.,none,none,0,0,The player thought there was a key in box 3.
+2_2,The player believed that box 2 contained a key.,none,none,0,0,The player believed that box 2 contained a key.
+2_2,The player believed that box 3 was empty.,none,none,0,0,The player believed that box 3 was empty.
+2_2,The player thought that box 2 contained a red key.,none,none,0,0,The player thought that box 2 contained a red key.
+2_2,The player thought that box 1 was empty.,none,none,0,0,The player thought that box 1 was empty.
+2_2,The player thought that box 3 was empty.,none,none,0,0,The player thought that box 3 was empty.
+2_2,The player initially believed that box 2 would contain a red key.,none,none,0,0,The player initially believed that box 2 would contain a red key.
+2_2,The player initially believed that box 2 was more likely to contain a red key than box 1 and box 3.,none,comparative,1,0,The player initially believed that box 2 was more likely to contain a red key than box 1 and box 3.
+2_3,The player likely believed box 3 to be empty.,none,none,0,0,The player believed box 3 to be empty.
+2_3,The player likely believed box 1 or box 2 to contain a red key.,none,none,1,0,The player believed box 1 or box 2 to contain a red key.
+2_3,The player thought that box 3 did not contain a red key.,none,none,0,0,The player thought that box 3 did not contain a red key.
+2_3,The player thought that box 2 did not contain a red key.,none,none,0,0,The player thought that box 2 did not contain a red key.
+2_3,The player thought that box 1 most likely contains a red key.,none,comparative,0,0,The player thought that box 1 most likely contains a red key.
+2_3,The player knew there would be a red key in one of the boxes.,none,none,1,1,The player knew there would be a red key in one of the boxes.
+2_3,The player did not believe box three would hold a key.,none,none,0,0,The player did not believe box three would hold a key.
+2_3,The player believed that box 1 has a red eye.,none,none,0,0,The player believed that box 1 has a red eye.
+2_3,The player believed that box 2 is empty.,none,none,0,0,The player believed that box 2 is empty.
+2_3,The player believed that box 3 is empty.,none,none,0,0,The player believed that box 3 is empty.
+3_1,"The player knew there was a red key in box 1, box 2, or box 3.",none,none,1,1,"The player knew there was a red key in box 1, box 2, or box 3."
+3_1,"The player knew there was a blue key in box 1, box 2, or box 3.",none,none,1,1,"The player knew there was a blue key in box 1, box 2, or box 3."
+3_1,The player knew there was a key in box 2 or box 3.,none,none,1,1,The player knew there was a key in box 2 or box 3.
+3_1,The player believed box 1 contained the blue key,none,none,0,0,The player believed box 1 contained the blue key.
+3_1,The player believed box 2 would contain the blue key,none,none,0,0,The player believed box 2 would contain the blue key.
+3_1,The player initially believed the blue key could be in any one of the boxes.,could,none,1,0,The player initially believed the blue key could be in any one of the boxes.
+3_1,The player believes the keys were in box 1 and 2.,none,none,1,0,The player believes the keys were in box 1 and 2.
+3_1,The player believed box 1 was empty.,none,none,0,0,The player believed box 1 was empty.
+3_1,The played believed there might be a chance of seeing a key in box 2.,might,none,0,0,The player believed there might be a chance of seeing a key in box 2.
+3_2,The player expected to find a key in box 3.,none,none,0,0,The player expected to find a key in box 3.
+3_2,The player did not know the color of the key in box 3.,none,none,0,1,The player did not know the color of the key in box 3.
+3_2,The player did not know which box might contain a red key.,might,none,0,1,The player did not know which box might contain a red key.
+3_2,The player initially thought box three had the red key.,none,none,0,0,The player initially thought box three had the red key.
+3_2,The player initially believed that box 3 contained a key.,none,none,0,0,The player initially believed that box 3 contained a key.
+3_2,"The player initially believed that box 3 contained a red key, and was wrong.",none,none,0,0,"The player initially believed that box 3 contained a red key, and was wrong."
+3_2,the player thought the red key was in box 3.,none,none,0,0,The player thought the red key was in box 3.
+3_2,The player believed that box 3 contains the red key.,none,none,0,0,The player believed that box 3 contains the red key.
+3_2,The player believed that box 1 is empty.,none,none,0,0,The player believed that box 1 is empty.
+3_2,The player believed there was no key in box 1.,none,none,0,0,The player believed there was no key in box 1.
+3_2,The player believed there was a pink key in box 3.,none,none,0,0,The player believed there was a pink key in box 3.
+3_3,The player thought there might be a blue key in box 2.,might,none,0,0,The player thought there might be a blue key in box 2.
+3_3,The player was unsure which box contained the blue key.,none,uncertain,0,0,The player was unsure which box contained the blue key.
+3_3,The player believed box 1 was not empty,none,none,0,0,The player believed box 1 was not empty.
+3_3,The player believed box 1 might hold a blue key,might,none,0,0,The player believed box 1 might hold a blue key.
+3_3,The player initially believed a blue key was hidden inside box 2.,none,none,0,0,The player initially believed a blue key was hidden inside box 2.
+3_3,The player initially believed a blue key was more likely to be inside box 2 than box 1 or box 3.,none,comparative,1,0,The player initially believed a blue key was more likely to be inside box 2 than box 1 or box 3.
+3_3,The player knew that box 1 did not have the blue key.,none,none,0,1,The player knew that box 1 did not have the blue key.
+3_3,The player believed that box 2 had the blue key.,none,none,0,0,The player believed that box 2 had the blue key.
+4_1,The player likely believed box 2 or box 3 contains a red key.,none,none,1,0,The player believed box 2 or box 3 contained a red key.
+4_1,The player likely believed box 1 to be empty.,none,none,0,0,The player believed box 1 to be empty.
+4_1,The player believed that box 1 did not contain a red key.,none,none,0,0,The player believed that box 1 did not contain a red key.
+4_1,The player believed that either box 2 or 3 contained a red key.,none,none,1,0,The player believed that either box 2 or 3 contained a red key.
+4_1,The player believed he could get a second red key in box two or three.,could,none,1,0,The player believed they could get a second red key in box two or three.
+4_1,The player did not have confidence box one would hold the red key.,none,none,0,0,The player did not have confidence box one would hold the red key.
+4_1,The player initially believed that box 1 is empty.,none,none,0,0,The player initially believed that box 1 is empty.
+4_1,The player initially believed that either box 2 or 3 contain a red key.,none,none,1,0,The player initially believed that either box 2 or 3 contain a red key.
+4_1,The player believed box 1 was empty.,none,none,0,0,The player believed box 1 was empty.
+4_1,The player believed box 2 or 3 had a key in it.,none,none,1,0,The player believed box 2 or 3 had a key in it.
+4_2,The player initially thought there was a red key in box 1.,none,none,0,0,The player initially thought there was a red key in box 1.
+4_2,The player believed that box 2 had a red key.,none,none,0,0,The player believed that box 2 had a red key.
+4_2,The player believed that box 3 might have been empty,might,none,0,0,The player believed that box 3 might have been empty.
+4_2,The player initially believed a red key was most likely in box 2.,none,comparative,0,0,The player initially believed a red key was most likely in box 2.
+4_2,The player believed that box 3 was empty.,none,none,0,0,The player believed that box 3 was empty.
+4_2,The player believed that either box 1 or 2 contained a key.,none,none,1,0,The player believed that either box 1 or 2 contained a key.
+4_2,The plyer believed that there was a key in box 2,none,none,0,0,The player believed that there was a key in box 2.
+4_2,The player believed that there is a key in box 3,none,none,0,0,The player believed that there is a key in box 3.
+4_2,The player thought that box 2 contained a red key.,none,none,0,0,The player thought that box 2 contained a red key.
+4_2,The player thought that box 1 contained a red key.,none,none,0,0,The player thought that box 1 contained a red key.
+4_2,The player thought that box 3 was empty.,none,none,0,0,The player thought that box 3 was empty.
+4_3,The player likely believed box 3 could have contained a red key.,could,none,0,0,The player believed box 3 could have contained a red key.
+4_3,The player likely believed box 1 or box 2 contained a red key.,none,none,1,0,The player believed box 1 or box 2 contained a red key.
+4_3,The player believed box 3 contains a red key,none,none,0,0,The player believed box 3 contains a red key.
+4_3,The player believed box 2 and 1 was empty,none,none,1,0,The player believed box 2 and 1 was empty.
+4_3,The player thought that box 1 did not contain a red key.,none,none,0,0,The player thought that box 1 did not contain a red key.
+4_3,The player did not know if box 2 contained a red key.,none,none,0,1,The player did not know if box 2 contained a red key.
+4_3,The player did not know if box 3 contained a red key.,none,none,0,1,The player did not know if box 3 contained a red key.
+4_3,The player did not believe box one would hold a key.,none,none,0,0,The player did not believe box one would hold a key.
+4_3,the player knew there was a red key in box 3.,none,none,0,1,The player knew there was a red key in box 3.
+4_3,The player believed that box number 1 is empty.,none,none,0,0,The player believed that box number 1 is empty.
+4_3,The player believed that the third box held the other red key.,none,none,0,0,The player believed that the third box held the other red key.
+4_3,The player believed that box 3 is full.,none,none,0,0,The player believed that box 3 is full.
+4_3,The player believed that box 1 is empty.,none,none,0,0,The player believed that box 1 is empty.
+4_3,"The player believed there was a key in Box 1, Box 2, or Box 3.",none,none,1,0,"The player believed there was a key in box 1, box 2, or box 3."
+4_3,The player did not know for sure which Box contained a key.,none,uncertain,0,1,The player did not know for sure which box contained a key.
+4_3,"At the start of the scenario, the player believed there might be a key in box 1.",might,none,0,0,The player believed there might be a key in box 1.
+4_3,The player was unsure about the contents of boxes 2 and 3.,none,uncertain,1,0,The player was unsure about the contents of boxes 2 and 3.
+4_3,The player thought that one of the boxes might be empty.,might,none,1,0,The player thought that one of the boxes might be empty.
+5_1,The player believed there might be a key in box 2.,might,none,0,0,The player believed there might be a key in box 2.
+5_1,The player was unsure whether box 2 would be empty or have a blue or red key.,none,uncertain,1,0,The player was unsure whether box 2 would be empty or have a blue or red key.
+5_1,The player believed a red key was more likely to be in box 2 or 3 than box 1.,none,comparative,1,0,The player believed a red key was more likely to be in box 2 or 3 than box 1.
+5_1,The player believed that the red key was in box number 2.,none,none,0,0,The player believed that the red key was in box number 2.
+5_1,The player believed that box number 3 was empty.,none,none,0,0,The player believed that box number 3 was empty.
+5_1,The player believed that box 2 might have a red or blue key,might,none,1,0,The player believed that box 2 might have a red or blue key.
+5_1,The played believed that there was a key in box 2,none,none,0,0,The player believed that there was a key in box 2.
+5_1,The player believed that box 1 was empty,none,none,0,0,The player believed that box 1 was empty.
+5_1,The player initially believed that there was a red key in one of the boxes.,none,none,1,0,The player initially believed that there was a red key in one of the boxes.
+5_1,"The player thought there was an equal chance of the key being in Box 1, Box 2, and Box 3.",none,comparative,1,0,"The player thought there was an equal chance of the key being in box 1, box 2, and box 3."
+5_1,The player knew that box 1 did not have a red key.,none,none,0,1,The player knew that box 1 did not have a red key.
+5_1,The player thought that box 2 might have the red key.,might,none,0,0,The player thought that box 2 might have the red key.
+5_1,"At the start of the scenario, the player believed there might be a key in box 1.",might,none,0,0,The player believed there might be a key in box 1.
+5_1,The player was unsure about the contents of boxes 2 and 3.,none,uncertain,1,0,The player was unsure about the contents of boxes 2 and 3.
+5_1,The player thought that one of the boxes might be empty.,might,none,1,0,The player thought that one of the boxes might be empty.
+5_2,The player initially believed the red key was in box 1.,none,none,0,0,The player initially believed the red key was in box 1.
+5_2,The player initially believed the red key was in box 2.,none,none,0,0,The player initially believed the red key was in box 2.
+5_2,the player thought a red key was in box 1.,none,none,0,0,The player thought a red key was in box 1.
+5_2,the player thought a red key was in box 2.,none,none,0,0,The player thought a red key was in box 2.
+5_2,The player initially believed only one of the boxes contained a red key.,none,none,1,0,The player initially believed only one of the boxes contained a red key.
+5_2,The player believed that the first box held the red key.,none,none,0,0,The player believed that the first box held the red key.
+5_2,The player thought that the third box was likely to be empty.,none,likely,0,0,The player thought that the third box was likely to be empty.
+5_2,The player believed one of the boxes might have a key.,might,none,1,0,The player believed one of the boxes might have a key.
+5_2,The player believed that box 3 was empty.,none,none,0,0,The player believed that box 3 was empty.
+5_2,The player believed that either box 1 and 2 contained the red key.,none,none,1,0,The player believed that either box 1 and 2 contained the red key.
+5_2,The player believed that box 1 had a red key,none,none,0,0,The player believed that box 1 had a red key.
+5_2,The player believed that box 2 was empty,none,none,0,0,The player believed that box 2 was empty.
+5_2,"The player believed there was a red key in Box 1, Box 2, or Box 3.",none,none,1,0,"The player believed there was a red key in box 1, box 2, or box 3."
+5_2,The player did not know for sure which box contained the key.,none,uncertain,0,1,The player did not know for sure which box contained the key.
+5_2,"At the start of the scenario, the player believed there might be a key in box 1.",might,none,0,0,The player believed there might be a key in box 1.
+5_2,The player was unsure about the contents of boxes 2 and 3.,none,uncertain,1,0,The player was unsure about the contents of boxes 2 and 3.
+5_2,The player thought that one of the boxes might be empty.,might,none,1,0,The player thought that one of the boxes might be empty.
+6_1,The player likely believed that box 1 may contain a blue key or a red key.,might,none,1,0,The player believed that box 1 might contain a blue key or a red key.
+6_1,The player likely believed that box 2 may contain a blue key or a red key.,might,none,1,0,The player believed that box 2 might contain a blue key or a red key.
+6_1,The player initially believed there was either a red key or a blue key in box 1.,none,none,1,0,The player initially believed there was either a red key or a blue key in box 1.
+6_1,He believed box one contained a red or key,none,none,0,0,The player believed box one contained a red or key.
+6_1,He believed box one contained a blue key,none,none,0,0,The player believed box one contained a blue key.
+6_1,The player initially believed that a red key would be located in either box 1 or box 2.,none,none,1,0,The player initially believed that a red key would be located in either box 1 or box 2.
+6_1,The player knew that there was a key in box 1.,none,none,0,1,The player knew that there was a key in box 1.
+6_1,The player knew that there was a key in box 2.,none,none,0,1,The player knew that there was a key in box 2.
+6_2,The player initially believed there was a blue key in either box 1 or box 2.,none,none,1,0,The player initially believed there was a blue key in either box 1 or box 2.
+6_2,The player believed that box 1 had a read key.,none,none,0,0,The player believed that box 1 had a read key.
+6_2,The player believed that box 2 had a red key,none,none,0,0,The player believed that box 2 had a red key.
+6_3,The player believed that box one was empty and held no key.,none,none,1,0,The player believed that box one was empty and held no key.
+6_3,The player believed box 1 was empty.,none,none,0,0,The player believed box 1 was empty.
+6_3,The player believed that box 2 was empty.,none,none,0,0,The player believed that box 2 was empty.
+6_3,The player believed there may be a key in one of the boxes.,may,none,1,0,The player believed there may be a key in one of the boxes.
+6_3,"At the start of the scenario, the player believed there might be a key in box 1.",might,none,0,0,The player believed there might be a key in box 1.
+6_3,The player was unsure about the contents of boxes 2 and 3.,none,uncertain,1,0,The player was unsure about the contents of boxes 2 and 3.
+6_3,The player thought that one of the boxes might be empty.,might,none,1,0,The player thought that one of the boxes might be empty.
+7_1,The player believed that box 2 might have a red key.,might,none,0,0,The player believed that box 2 might have a red key.
+7_1,The player believed that box 3 might have a red key.,might,none,0,0,The player believed that box 3 might have a red key.
+7_1,The player thought that boxes 2 or 3 contained a key.,none,none,1,0,The player thought that boxes 2 or 3 contained a key.
+7_1,The player thought that box 1 was empty.,none,none,0,0,The player thought that box 1 was empty.
+7_1,The player initially believed box 2 was most likely to contain box a red key.,none,comparative,0,0,The player initially believed box 2 was most likely to contain box a red key.
+7_1,The player initially believed that box 1 was least likely to contain a red key.,none,comparative,0,0,The player initially believed that box 1 was least likely to contain a red key.
+7_2,The player thought that box 1 was most likely to contain a red key.,none,comparative,0,0,The player thought that box 1 was most likely to contain a red key.
+7_2,The player thought box 3 was empty.,none,none,0,0,The player thought box 3 was empty.
+7_2,The player believed the red key was in box 1.,none,none,0,0,The player believed the red key was in box 1.
+7_2,The player believed the red key could be in box 2.,could,none,0,0,The player believed the red key could be in box 2.
+7_2,The player believed that box 2 might be empty.,might,none,0,0,The player believed that box 2 might be empty.
+7_2,The player believed that box 1 might contain the red key.,might,none,0,0,The player believed that box 1 might contain the red key.
+7_2,The player believed that box 3 might be empty.,might,none,0,0,The player believed that box 3 might be empty.
+7_2,The player originally believed that box number one held the red key.,none,none,0,0,The player originally believed that box number one held the red key.
+7_2,The player thought that boxes number 2 and 3 were empty.,none,none,1,0,The player thought that boxes number 2 and 3 were empty.
+7_2,"The player believed there was a key in Box 1, Box 2, or Box 3.",none,none,1,0,"The player believed there was a key in box 1, box 2, or box 3."
+7_2,The player believed there was an equal chance of the key being in any one of the boxes.,none,none,1,0,The player believed there was an equal chance of the key being in any one of the boxes.
+7_2,The player thought that box 1 contained a red key.,none,none,0,0,The player thought that box 1 contained a red key.
+7_2,The player thought that boxes 2 and 3 were empty.,none,none,1,0,The player thought that boxes 2 and 3 were empty.
+7_2,The player initially believed that box 1 was more likely to contain a red key than box 2 and box 3.,none,comparative,1,0,The player initially believed that box 1 was more likely to contain a red key than box 2 and box 3.
+7_2,The player initially believed that box 2 and 3 would not contain the a red key.,none,none,1,0,The player initially believed that box 2 and 3 would not contain the a red key.
+7_2,"At the start of the scenario, the player initially believed there might be a key in box 1.",might,none,0,0,The player initially believed there might be a key in box 1.
+7_2,The player was unsure about the contents of boxes 2 and 3.,none,uncertain,1,0,The player was unsure about the contents of boxes 2 and 3.
+7_2,The player thought that one of the boxes might be empty.,might,none,1,0,The player thought that one of the boxes might be empty.
+7_3,The player believed that box 3 did not contain a red key.,none,none,0,0,The player believed that box 3 did not contain a red key.
+7_3,The player believed that box 2 did not contain a red key.,none,none,0,0,The player believed that box 2 did not contain a red key.
+7_3,The player believed that box 1 had a red key.,none,none,0,0,The player believed that box 1 had a red key.
+7_3,The player initially believed that box 1 may have a red key.,may,none,0,0,The player initially believed that box 1 may have a red key.
+7_3,The player initially believed that box 1 or 3 could contain a red key.,could,none,1,0,The player initially believed that box 1 or 3 could contain a red key.
+7_3,The player believed there might be a red key in box 1.,might,none,0,0,The player believed there might be a red key in box 1.
+7_3,The player was unsure what box contained the red key.,none,uncertain,0,0,The player was unsure what box contained the red key.
+7_3,The player believed box one had a red key,none,none,0,0,The player believed box one had a red key.
+7_3,The player believed box 2 and 3 might be empty,might,none,1,0,The player believed box 2 and 3 might be empty.
+7_3,The player thought that box 1 contained a red key.,none,none,0,0,The player thought that box 1 contained a red key.
+7_3,The player thought that boxes 2 and 3 were empty.,none,none,1,0,The player thought that boxes 2 and 3 were empty.
+7_3,The player believed they key was in box 1.,none,none,0,0,The player believed they key was in box 1.
+7_3,The player believed they key was not in box 2.,none,none,0,0,The player believed they key was not in box 2.
+7_3,The player believed that box 1 might have the red key.,might,none,0,0,The player believed that box 1 might have the red key.
+7_3,The player believed that box 3 might also have the red key.,might,none,0,0,The player believed that box 3 might also have the red key.

@@ -1,0 +1,5 @@
+The player thinks that box 1 is empty.
+The player is uncertain about the contents of box 3.
+The player believes that box 2 is empty.
+The player believes that if box 1 does not have a blue key, then box 3 has a blue key.
+The player believes there may be a key in box 1.
