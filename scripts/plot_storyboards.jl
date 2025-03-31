@@ -9,6 +9,8 @@ include("src/utils.jl")
 include("src/render.jl")
 include("src/plan_io.jl")
 
+PROJECT_DIR = joinpath(@__DIR__, "..")
+
 "Adds a subplot to a storyboard with a line plot of probabilities."
 function storyboard_prob_lines!(
     fig_or_pos::Union{Figure, GridPosition, GridSubposition}, probs, ts=Int[];
@@ -189,9 +191,9 @@ CairoMakie.activate!()
 PDDL.Arrays.register!()
 
 # Load domain and problems
-DOMAIN = load_domain(joinpath(@__DIR__, "dataset", "domain.pddl"))
+DOMAIN = load_domain(joinpath(PROJECT_DIR, "dataset", "domain.pddl"))
 
-PROBLEM_DIR = joinpath(@__DIR__, "dataset", "problems")
+PROBLEM_DIR = joinpath(PROJECT_DIR, "dataset", "problems")
 PROBLEMS = Dict{String, Problem}()
 for path in readdir(PROBLEM_DIR)
     name, ext = splitext(path)
@@ -202,17 +204,17 @@ end
 ## Storyboard plots with current and initial belief probabilities ##
 
 # Define directories
-PROBLEM_DIR = joinpath(@__DIR__, "dataset", "problems")
-CURR_PLAN_DIR = joinpath(@__DIR__, "dataset", "plans", "exp2_current")
-INIT_PLAN_DIR = joinpath(@__DIR__, "dataset", "plans", "exp2_initial")
-CURR_STATEMENT_DIR = joinpath(@__DIR__, "dataset", "statements", "exp2_current")
-INIT_STATEMENT_DIR = joinpath(@__DIR__, "dataset", "statements", "exp2_initial")
+PROBLEM_DIR = joinpath(PROJECT_DIR, "dataset", "problems")
+CURR_PLAN_DIR = joinpath(PROJECT_DIR, "dataset", "plans", "exp2_current")
+INIT_PLAN_DIR = joinpath(PROJECT_DIR, "dataset", "plans", "exp2_initial")
+CURR_STATEMENT_DIR = joinpath(PROJECT_DIR, "dataset", "statements", "exp2_current")
+INIT_STATEMENT_DIR = joinpath(PROJECT_DIR, "dataset", "statements", "exp2_initial")
 
-RESULTS_DIR = joinpath(@__DIR__, "results")
+RESULTS_DIR = joinpath(PROJECT_DIR, "results")
 CURR_HUMAN_DIR = joinpath(RESULTS_DIR, "humans" ,"exp2_current")
 INIT_HUMAN_DIR = joinpath(RESULTS_DIR, "humans", "exp2_initial")
 
-FIGURE_DIR = joinpath(@__DIR__, "figures", "storyboard_plots")
+FIGURE_DIR = joinpath(PROJECT_DIR, "figures", "storyboard_plots")
 mkpath(FIGURE_DIR)
 
 # Load plans
@@ -232,7 +234,7 @@ human_df = vcat(curr_human_df, init_human_df)
 human_df.method .= "human"
 human_df.submethod .= ""
 
-btom_path = joinpath(@__DIR__, "results", "results_btom_all.csv")
+btom_path = joinpath(PROJECT_DIR, "results", "results_btom_all.csv")
 btom_all_df = CSV.read(btom_path, DataFrame)
 btom_all_df.method .= "btom"
 transform!(btom_all_df,

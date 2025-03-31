@@ -6,7 +6,8 @@ using DataStructures: OrderedDict
 using CairoMakie
 using PDDL, PDDLViz
 
-RESULTS_DIR = joinpath(@__DIR__, "results")
+PROJECT_DIR = joinpath(@__DIR__, "..")
+RESULTS_DIR = joinpath(PROJECT_DIR, "results")
 
 ## Correlation plots
 
@@ -145,13 +146,13 @@ end
 display(figure)
 
 # Save correlation plot
-FIGURE_DIR = joinpath(@__DIR__, "figures")
+FIGURE_DIR = joinpath(PROJECT_DIR, "figures")
 save(joinpath(FIGURE_DIR, "correlation.pdf"), figure)
 save(joinpath(FIGURE_DIR, "correlation.png"),  figure)
 
 ## Compare statement likelihoods
 
-RESULTS_DIR = joinpath(@__DIR__, "results")
+RESULTS_DIR = joinpath(PROJECT_DIR, "results")
 likelihood_df =
     CSV.read(joinpath(RESULTS_DIR, "likelihood_per_statement.csv"), DataFrame)
 filter!(likelihood_df) do row
@@ -220,6 +221,6 @@ Legend(figure[3, 1], grouped_elems, grouped_labels, ["", ""],
 rowgap!(figure.layout, 2, 10)
 display(figure)
 
-FIGURE_DIR = joinpath(@__DIR__, "figures")
+FIGURE_DIR = joinpath(PROJECT_DIR, "figures")
 save(joinpath(FIGURE_DIR, "statement_likelihood_diffs.pdf"), figure)
 save(joinpath(FIGURE_DIR, "statement_likelihood_diffs.png"), figure)

@@ -22,18 +22,19 @@ include("src/reconstruct.jl")
 ## Initial setup ##
 
 # Define directory paths
-PROBLEM_DIR = joinpath(@__DIR__, "dataset", "problems")
+PROJECT_DIR = joinpath(@__DIR__, "..")
+PROBLEM_DIR = joinpath(PROJECT_DIR, "dataset", "problems")
 
-CURR_PLAN_DIR = joinpath(@__DIR__, "dataset", "plans", "exp2_current")
-CURR_STATEMENT_DIR = joinpath(@__DIR__, "dataset", "statements", "exp2_current")
+CURR_PLAN_DIR = joinpath(PROJECT_DIR, "dataset", "plans", "exp2_current")
+CURR_STATEMENT_DIR = joinpath(PROJECT_DIR, "dataset", "statements", "exp2_current")
 
-INIT_PLAN_DIR = joinpath(@__DIR__, "dataset", "plans", "exp2_initial")
-INIT_STATEMENT_DIR = joinpath(@__DIR__, "dataset", "statements", "exp2_initial")
+INIT_PLAN_DIR = joinpath(PROJECT_DIR, "dataset", "plans", "exp2_initial")
+INIT_STATEMENT_DIR = joinpath(PROJECT_DIR, "dataset", "statements", "exp2_initial")
 
-RESULTS_DIR = joinpath(@__DIR__, "results")
+RESULTS_DIR = joinpath(PROJECT_DIR, "results")
 
 # Load domain
-DOMAIN = load_domain(joinpath(@__DIR__, "dataset", "domain.pddl"))
+DOMAIN = load_domain(joinpath(PROJECT_DIR, "dataset", "domain.pddl"))
 COMPILED_DOMAINS = Dict{String, Domain}()
 
 # Load problems
@@ -53,13 +54,13 @@ _, INIT_STATEMENTS = load_statement_dataset(INIT_STATEMENT_DIR)
 
 # Load translated statements
 CURR_TRANSLATIONS_DF =
-    CSV.read(joinpath(@__DIR__, "dataset", "statements", "exp2_current_translations.csv"), DataFrame)
+    CSV.read(joinpath(PROJECT_DIR, "dataset", "statements", "exp2_current_translations.csv"), DataFrame)
 CURR_TRANSLATIONS_GDF = DataFrames.groupby(CURR_TRANSLATIONS_DF, :plan_id)
 CURR_TRANSLATIONS = Dict{String, Vector{String}}(
     key.plan_id => df.gold_elot for (key, df) in pairs(CURR_TRANSLATIONS_GDF)
 )
 INIT_TRANSLATIONS_DF =
-    CSV.read(joinpath(@__DIR__, "dataset", "statements", "exp2_initial_translations.csv"), DataFrame)
+    CSV.read(joinpath(PROJECT_DIR, "dataset", "statements", "exp2_initial_translations.csv"), DataFrame)
 INIT_TRANSLATIONS_GDF = DataFrames.groupby(INIT_TRANSLATIONS_DF, :plan_id)
 INIT_TRANSLATIONS = Dict{String, Vector{String}}(
     key.plan_id => df.gold_elot for (key, df) in pairs(INIT_TRANSLATIONS_GDF)

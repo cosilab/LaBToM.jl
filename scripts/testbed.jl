@@ -20,12 +20,13 @@ include("src/reconstruct.jl")
 
 # Define directory paths
 EXPERIMENT_ID = "exp2_current"
-PROBLEM_DIR = joinpath(@__DIR__, "dataset", "problems")
-PLAN_DIR = joinpath(@__DIR__, "dataset", "plans", EXPERIMENT_ID)
-STATEMENT_DIR = joinpath(@__DIR__, "dataset", "statements", EXPERIMENT_ID)
+PROJECT_DIR = joinpath(@__DIR__, "..")
+PROBLEM_DIR = joinpath(PROJECT_DIR, "dataset", "problems")
+PLAN_DIR = joinpath(PROJECT_DIR, "dataset", "plans", EXPERIMENT_ID)
+STATEMENT_DIR = joinpath(PROJECT_DIR, "dataset", "statements", EXPERIMENT_ID)
 
 TRANSLATIONS_DF =
-    CSV.read(joinpath(@__DIR__, "dataset", "statements", "$(EXPERIMENT_ID)_translations.csv"), DataFrame)
+    CSV.read(joinpath(PROJECT_DIR, "dataset", "statements", "$(EXPERIMENT_ID)_translations.csv"), DataFrame)
 TRANSLATIONS_GDF = DataFrames.groupby(TRANSLATIONS_DF, :plan_id)
 TRANSLATIONS = Dict{String, Vector{String}}(
     key.plan_id => df.translation_elot for (key, df) in pairs(TRANSLATIONS_GDF)
@@ -34,7 +35,7 @@ TRANSLATIONS = Dict{String, Vector{String}}(
 #--- Initial Setup ---#
 
 # Load domain
-domain = load_domain(joinpath(@__DIR__, "dataset", "domain.pddl"))
+domain = load_domain(joinpath(PROJECT_DIR, "dataset", "domain.pddl"))
 
 # Load problem
 p_id = "1_1"
@@ -205,18 +206,6 @@ silent_cb = DataLoggerCallback(
     verbose = false
 )
 callback = CombinedCallback(logger=logger_cb, silent=silent_cb)
-# act_addr_fn = (t, pf) -> t == 0 ?
-#     (:init => :act => :act) : (:timestep => t => :act => :act)
-# print_cb = PrintStatsCallback(
-#     (goal_addr, 1:length(goals)),
-#     (init_state_addr, 1:length(initial_states)),
-#     (belief_addr, 1:length(initial_belief_dists)),
-#     (act_addr_fn, :observation);
-#     header=("t\t" * join(goal_names, "\t") * "\t" *
-#             join(state_names, "\t") * "\t" *
-#             join(belief_names, "\t") * "\t" * "action")
-# )
-# callback = CombinedCallback(logger=logger_cb, print=print_cb)
 
 # Configure SIPS particle filter
 sips = SIPS(world_config, resample_cond=:none, rejuv_cond=:none)
@@ -262,7 +251,7 @@ for judgment_id in 2:length(splitpoints)-1
     render_trajectory!(canvas, RENDERER, domain, trajectory[prev_t_plot:t_plot],
                     track_stopmarker=' ', object_start_colors=[(:black, 0.25)], 
                     show_state=false)
-    tmp_path = tempname(@__DIR__) * ".png"
+    tmp_path = tempname(PROJECT_DIR) * ".png"
     push!(img_paths, tmp_path)
     save(tmp_path, cfigure)
 end
@@ -296,7 +285,7 @@ rowsize!(figure.layout, 2, 600)
 display(figure)
 
 # Save figure
-FIGURE_DIR = joinpath(@__DIR__, "figures")
+FIGURE_DIR = joinpath(PROJECT_DIR, "figures")
 mkpath(FIGURE_DIR)
 save(joinpath(FIGURE_DIR, "step_by_step_$(p_id).pdf"), figure)
 

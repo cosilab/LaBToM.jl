@@ -174,13 +174,14 @@ end
 
 # Define directory paths
 EXPERIMENT_ID = "exp2_current"
-PROBLEM_DIR = joinpath(@__DIR__, "dataset", "problems")
-PLAN_DIR = joinpath(@__DIR__, "dataset", "plans", EXPERIMENT_ID)
-STATEMENT_DIR = joinpath(@__DIR__, "dataset", "statements", EXPERIMENT_ID)
-STIMULI_DIR = joinpath(@__DIR__, "dataset", "stimuli")
+PROJECT_DIR = joinpath(@__DIR__, "..")
+PROBLEM_DIR = joinpath(PROJECT_DIR, "dataset", "problems")
+PLAN_DIR = joinpath(PROJECT_DIR, "dataset", "plans", EXPERIMENT_ID)
+STATEMENT_DIR = joinpath(PROJECT_DIR, "dataset", "statements", EXPERIMENT_ID)
+STIMULI_DIR = joinpath(PROJECT_DIR, "dataset", "stimuli")
 
 # Load domain
-domain = load_domain(joinpath(@__DIR__, "dataset", "domain.pddl"))
+domain = load_domain(joinpath(PROJECT_DIR, "dataset", "domain.pddl"))
 
 ## Generate animations for single plan / stimulus
 

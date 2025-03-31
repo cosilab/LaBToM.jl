@@ -39,11 +39,14 @@ Several scripts in this repository (e.g. threshold fitting, analysis, and plotti
 
 - The `dataset` directory contains all plans, problems, and stimuli
 - The `src` directory contains non-top-level source files
+- The `scripts` directory contains the main experiment scripts
 - The `translation` directory contains ELoT translation code (see `translation/README.md`)
 - The `llm_baselines` directory contains LLM baselines (see `llm_baselines/README.md`)
 - The `assets` directory contains image assets used in this README
 
 ### Main Experiment Scripts
+
+In the `scripts` directory, you will find the following scripts:
 
 - `run_btom_inference.jl` generates and saves BToM inference results via Bayesian inverse planning
 - `run_elot_evaluation.jl` evaluates ELoT translations against saved BToM inference results
@@ -54,6 +57,8 @@ Several scripts in this repository (e.g. threshold fitting, analysis, and plotti
 - `stimuli.jl` generates stimuli animations and metadata
 
 ### Analysis and Plotting
+
+Scripts for analysis and plotting can also be found in the `scripts` directory:
 
 - `analysis.jl` generates analysis results
 - `plot_statistics.jl` generates statistical plots from the analysis results

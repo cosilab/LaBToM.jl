@@ -19,12 +19,13 @@ include("src/interpreter.jl")
 include("src/reconstruct.jl")
 
 # Define directory paths
-PROBLEM_DIR = joinpath(@__DIR__, "dataset", "problems")
-PLAN_DIR = joinpath(@__DIR__, "dataset", "plans", "exp1")
-RESULTS_DIR = joinpath(@__DIR__, "results")
+PROJECT_DIR = joinpath(@__DIR__, "..")
+PROBLEM_DIR = joinpath(PROJECT_DIR, "dataset", "problems")
+PLAN_DIR = joinpath(PROJECT_DIR, "dataset", "plans", "exp1")
+RESULTS_DIR = joinpath(PROJECT_DIR, "results")
 
 # Load domain
-DOMAIN = load_domain(joinpath(@__DIR__, "dataset", "domain.pddl"))
+DOMAIN = load_domain(joinpath(PROJECT_DIR, "dataset", "domain.pddl"))
 COMPILED_DOMAINS = Dict{String, Domain}()
 
 # Load problems
@@ -39,7 +40,7 @@ end
 PLAN_IDS, PLANS, _, SPLITPOINTS = load_plan_dataset(PLAN_DIR)
 
 # Load belief statements
-STATEMENTS_DIR = joinpath(@__DIR__, "dataset", "statements", "exp1")
+STATEMENTS_DIR = joinpath(PROJECT_DIR, "dataset", "statements", "exp1")
 CURR_STATEMENTS_PATH = joinpath(STATEMENTS_DIR, "exp1_current_in_vs_out.csv")
 CURR_STATEMENTS_DF = CSV.read(CURR_STATEMENTS_PATH, DataFrame)
 INIT_STATEMENTS_PATH = joinpath(STATEMENTS_DIR, "exp1_initial_in_vs_out.csv")

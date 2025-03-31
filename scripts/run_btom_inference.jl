@@ -24,13 +24,14 @@ end
 
 # Define directory paths
 EXPERIMENT_ID = "exp1"
-PROBLEM_DIR = joinpath(@__DIR__, "dataset", "problems")
-PLAN_DIR = joinpath(@__DIR__, "dataset", "plans", EXPERIMENT_ID)
-RESULTS_DIR = joinpath(@__DIR__, "results")
+PROJECT_DIR = joinpath(@__DIR__, "..")
+PROBLEM_DIR = joinpath(PROJECT_DIR, "dataset", "problems")
+PLAN_DIR = joinpath(PROJECT_DIR, "dataset", "plans", EXPERIMENT_ID)
+RESULTS_DIR = joinpath(PROJECT_DIR, "results")
 mkpath(RESULTS_DIR)
 
 # Load domain
-DOMAIN = load_domain(joinpath(@__DIR__, "dataset", "domain.pddl"))
+DOMAIN = load_domain(joinpath(PROJECT_DIR, "dataset", "domain.pddl"))
 COMPILED_DOMAINS = Dict{String, Domain}()
 
 # Load problems

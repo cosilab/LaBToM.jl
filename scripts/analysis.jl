@@ -76,9 +76,9 @@ function sim_se_with(f::Function, xs::Vector)
 end
 
 EXPERIMENT_ID = "exp2_current"
-RESULTS_DIR = joinpath(@__DIR__, "results")
+RESULTS_DIR = joinpath(PROJECT_DIR, "results")
 HUMAN_RESULTS_DIR = joinpath(RESULTS_DIR, "humans", EXPERIMENT_ID)
-STIMULI_JSON_PATH = joinpath(@__DIR__, "dataset/stimuli/stimuli.json")
+STIMULI_JSON_PATH = joinpath(PROJECT_DIR, "dataset/stimuli/stimuli.json")
 
 ## Preprocess human data
 
@@ -219,9 +219,9 @@ CSV.write(joinpath(HUMAN_RESULTS_DIR, "mean_human_data.csv"), mean_human_df)
 
 ## Comparative analysis
 
-RESULTS_DIR = joinpath(@__DIR__, "results")
-CURR_HUMAN_DIR = joinpath(@__DIR__, "results", "humans", "exp2_current")
-INIT_HUMAN_DIR = joinpath(@__DIR__, "results", "humans", "exp2_initial")
+RESULTS_DIR = joinpath(PROJECT_DIR, "results")
+CURR_HUMAN_DIR = joinpath(PROJECT_DIR, "results", "humans", "exp2_current")
+INIT_HUMAN_DIR = joinpath(PROJECT_DIR, "results", "humans", "exp2_initial")
 
 START_COLS = [:method, :submethod, :plan_id, :judgment_id, :belief_type]
 
@@ -277,7 +277,7 @@ true_goals_curr = true_goals[1:size(curr_human_df, 1)]
 true_goals_init = true_goals[size(curr_human_df, 1)+1:end]
 
 # Read data for LLM baselines
-LLM_RESULTS_DIR = joinpath(@__DIR__, "results", "llm_baselines")
+LLM_RESULTS_DIR = joinpath(PROJECT_DIR, "results", "llm_baselines")
 LLM_DF_PATHS = [
     ("gpt-4o", "image, plan", "current") => "gpt4o_exp2_current_plan.csv",
     ("gpt-4o", "image, plan", "initial") => "gpt4o_exp2_initial_plan.csv",
@@ -554,8 +554,8 @@ CSV.write(joinpath(RESULTS_DIR, "human_model_corr_per_plan.csv"), correlation_pe
 
 # Compute correlation per statement
 include("src/plan_io.jl")
-CURR_STATEMENT_DIR = joinpath(@__DIR__, "dataset", "statements", "exp2_current")
-INIT_STATEMENT_DIR = joinpath(@__DIR__, "dataset", "statements", "exp2_initial")
+CURR_STATEMENT_DIR = joinpath(PROJECT_DIR, "dataset", "statements", "exp2_current")
+INIT_STATEMENT_DIR = joinpath(PROJECT_DIR, "dataset", "statements", "exp2_initial")
 _, CURR_STATEMENTS = load_statement_dataset(CURR_STATEMENT_DIR)
 _, INIT_STATEMENTS = load_statement_dataset(INIT_STATEMENT_DIR)
 correlation_per_statement_df = DataFrame(
@@ -607,7 +607,7 @@ CSV.write(joinpath(RESULTS_DIR, "human_model_corr_per_statement.csv"), correlati
 
 ## Per-factor correlation analysis
 
-STATEMENT_DIR = joinpath(@__DIR__, "dataset", "statements")
+STATEMENT_DIR = joinpath(PROJECT_DIR, "dataset", "statements")
 
 df_path = joinpath(STATEMENT_DIR, "exp2_current_annotations.csv")
 curr_annotations_df = CSV.read(df_path, DataFrame)
@@ -823,7 +823,7 @@ CSV.write(joinpath(RESULTS_DIR, "human_model_corr_per_factor_formatted.csv"), fo
 using HypothesisTests
 
 # Load all results
-RESULTS_DIR = joinpath(@__DIR__, "results")
+RESULTS_DIR = joinpath(PROJECT_DIR, "results")
 LIKELIHOOD_DF_PATHS = [
     ("btom", "full", "current") => joinpath(RESULTS_DIR, "exp1", "exp1_current_btom.csv"),
     ("btom", "full", "initial") => joinpath(RESULTS_DIR, "exp1", "exp1_initial_btom.csv"),
