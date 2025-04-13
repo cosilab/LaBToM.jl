@@ -28,7 +28,7 @@ To set up the environment for this project, make sure the `epistemic_language` d
 Then run the following commands in via `Pkg` mode in the Julia REPL:
 
 ```julia-repl
-add https://github.com/probcomp/InversePlanning.jl.git
+add https://github.com/probcomp/InversePlanning.jl.git#release-0.0.2
 instantiate
 ```
 
